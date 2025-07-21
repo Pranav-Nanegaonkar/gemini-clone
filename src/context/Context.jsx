@@ -18,7 +18,7 @@ const ContextProvider = (props) => {
         }, index * 75);
     }
 
-    const newChat = () =>{
+    const newChat = () => {
         setLoading(false)
         setShowResult(false)
 

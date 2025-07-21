@@ -11,7 +11,7 @@ async function runChat(prompt) {
     model: 'gemini-2.0-flash-001',
     contents: prompt,
   });
-  console.log(response.text);
+  // console.log(response.text);
   return response.text;
 }
 

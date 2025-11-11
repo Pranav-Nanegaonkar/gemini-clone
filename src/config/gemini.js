@@ -1,4 +1,3 @@
-const apikey = "AIzaSyDgHEoKCr2JpQh_ji7L2dkRNTXpryAY5BU";
 import dotenv from "dotenv";
 dotenv.config();
 import { GoogleGenAI } from "@google/genai";

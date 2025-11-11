@@ -31,6 +31,7 @@ const ContextProvider = (props) => {
         let response;
         if (prompt !== undefined) {
             response = await runChat(prompt);
+            
             setRecentPrompt(prompt);
 
         } else {
